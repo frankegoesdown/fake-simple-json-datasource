@@ -128,7 +128,7 @@ app.all('/query', function(req, res){
       });
     }
   });
- 
+  console.log(res.json(tsResult));
   res.json(tsResult);
   res.end();
 });
